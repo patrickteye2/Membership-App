@@ -1,0 +1,92 @@
+
+
+html{
+    background-color: #ced4da;
+}
+
+.form{
+    /* background-color: #ced4da; */
+    margin: 10vh auto;
+    max-width: 768px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.card{
+    max-width: 425px;
+    margin: auto;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    background-color: #fff;
+} 
+
+ input{
+    margin-bottom: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label, legend{
+    margin-bottom: 10px ;
+    margin-left: 10vh;
+}
+
+.left{
+    margin-left: 5px;
+}
+
+input[type=text], input[type=email]  {
+    border: 1px solid #ccc;
+    width: 80%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+input[type=radio] {
+    margin-left: 10vh;
+    cursor: pointer;
+}
+
+hr{
+    margin: 15px;
+    /* border: .5px solid #ced4da; */
+    box-shadow: 1px 1px 1px 1px #ced4da;
+    /* box-shadow: 1px 1px 1px 10px rgba(0, 0, 0, .2); */
+}
+
+ul{
+    list-style: circle inside none;
+}
+
+input[type=date]{
+    cursor: pointer;
+    border-radius: 3px ;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1.5px;
+}
+.datepicker-input::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+}
+
+#age{
+    border-bottom: 1px solid #ced4da;
+    margin-left: 2rem;
+    margin-right: .5rem;
+    padding: .2em;
+}
+
+#input_age{
+  display: none;
+}
+
+input[type=tel] {
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 4px;
+}
+

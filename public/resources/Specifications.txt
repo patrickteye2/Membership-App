@@ -1,0 +1,19 @@
+!. Should be CRUD
+2. Should take:
+	Image
+	Name
+	Sex
+	DOB
+	Contact
+	Address
+	Email
+	
+	Profession: --if student, level
+			 --if worker, job
+
+	Relationship Status:
+		--Married => Spouse Name
+		--Single--
+		--Dating/Engaged => Specify partner
+		--Complicated--
+

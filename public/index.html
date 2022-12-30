@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form method="POST" action="/" class="form" >
+        <div class="card" >
+            <ul >
+                <li>
+                    General Information
+                </li>
+            </ul>
+            <hr>
+            <label for="first-name" >Last Name</label>
+            <input type="text" name="first_name" id="first-name" placeholder=" Last Name">
+            <label for="last-name" >Other Names</label>
+            <input type="text" name="other_names" id="last-name" placeholder=" First Name   Middle Name">
+
+            <legend>Gender</legend>
+            <div>
+            <input type="radio" name="sex" id="male" value="male" />
+            <label for="male" class="left">Male</label>
+            </div>
+            <div>
+            <input type="radio" name="sex" id="female" value="female" />
+            <label for="female" class="left">Female</label>
+            </div>
+            <div>
+            <input type="radio" name="sex" id="other" value="other" />
+            <label for="other" class="left">Other</label>
+            </div>
+            <br>
+            <label for="birthday">Date of Birth 
+                <div class="datepicker">
+                    <input type="date" id="birthday" name="birthday">
+                    <span id="age"></span><span>years</span>
+                    <input name="age" id="input_age" type="text"/>
+                </div>
+            </label>
+
+            <label for="phone">Phone No <input type="tel" id="phone" name="phone" placeholder=" Mobile"></label>            
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder=" user@somemail.com">
+            
+            <input type="submit" name="submit_button" value="Done" />
+
+        </div>
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>
